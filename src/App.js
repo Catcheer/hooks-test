@@ -4,7 +4,6 @@ import Home from './page/home'
 import './App.css';
 
 import 'antd/dist/antd.css';
-import './public/Override.less'
 
 function App() {
   return (
