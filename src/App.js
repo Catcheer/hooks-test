@@ -1,9 +1,8 @@
 import React from 'react';
 import Home from './page/home'
 
-import './App.css';
-
 import 'antd/dist/antd.css';
+import './App.css';
 
 function App() {
   return (

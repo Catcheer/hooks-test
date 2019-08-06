@@ -7,14 +7,14 @@ const useModal = obj => {
       console.log(visible)
   },[visible])
 
-  const changeModalVisible = (statue = false) => {
-    setVisible(statue);
-  };
+//   const changeModalVisible = (statue = false) => {
+//     setVisible(statue);
+//   };
 
   return [
     {
       visible,
-      changeModalVisible
+      setVisible
     }
   ];
 };

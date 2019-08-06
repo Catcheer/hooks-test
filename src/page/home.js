@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import CompModal from './CompModal'
+import DragComponent from './Drag'
 
 function Home() {
 
@@ -26,6 +27,7 @@ const changeCount=(state)=>{
         <button onClick={() => { setCount(changeCount(state)) }}>add</button>
         <button onClick={() => { setCount((perState)=>({...perState,interValFlag:!perState.interValFlag})) }}>{state.interValFlag?'off':'on'}</button>
         <CompModal count={state.count} />
+        <DragComponent />
     </React.Fragment>
 }
 
